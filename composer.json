@@ -1,0 +1,16 @@
+{
+    "name": "oprokidnev/codeception-to-blueprint",
+    "description": "Intercepts codeception api calls and writes them into the api blueprint file",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andrey Oprokidnev",
+            "email": "oprokidnev@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Oprokidnev\\CodeceptToBlueprint\\": "src/"
+        }
+    }
+}
